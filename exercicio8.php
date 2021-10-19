@@ -12,10 +12,13 @@ $person1 = new Person('Matheus', 'M', 25);
 $person2 = new Person('Bia', 'F', 24);
 $person3 = new Person('Nathalia', 'F', 22);
 echo "------PEOPLE------<br />";
+echo $person1->getPersonDetails();
 echo $person1->getBirthday();
 echo "<br /><br />";
+echo $person2->getPersonDetails();
 echo $person2->getBirthday();
 echo "<br /><br />";
+echo $person3->getPersonDetails();
 echo $person3->getBirthday();
 
 $book1 = new Book('Uma aventura legal', 'fulano', 400, 67, true, 'Matheus');

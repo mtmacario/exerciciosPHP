@@ -45,8 +45,15 @@ class Person
         return $this->age;
     }
 
-    public function getBirthday()
+    public function getPersonDetails()
     {
         return " Name = {$this->name} <br /> Gender = {$this->gender} <br /> Age = {$this->age} ";
+    }
+
+    public function getBirthday()
+    {
+        $niver = ($this->age) + 1;
+        
+        return " <br /> Congrats for your {$niver} 's birthday !! ";
     }
 }
